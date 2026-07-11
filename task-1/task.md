@@ -24,7 +24,9 @@
 
 `OperationItem` используйте для каждой записи в разделе «Последние операции», передавая в него тип операции, название, дату и сумму.
 
-Иконку не нужно передавать в `OperationItem` отдельно. Тип операции должен быть `enum class`, в котором хранится иконка:
+Иконку не нужно передавать в `OperationItem` отдельно. В `OperationItem` передавайте тип операции аргументом `operationType: OperationType`.
+
+Ниже приведён пример того, как может выглядеть `enum class` с иконкой для каждого типа операции:
 
 ```kotlin
 enum class OperationType(
@@ -36,7 +38,7 @@ enum class OperationType(
 }
 ```
 
-В `OperationItem` используйте `iconRes` из переданного типа операции.
+Внутри `OperationItem` используйте `operationType.iconRes`.
 
 ## Бизнес-логика
 
