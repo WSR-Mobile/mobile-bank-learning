@@ -6,7 +6,7 @@
 
 ## Макет
 
-Ссылка на Figma: https://www.figma.com/design/fExldtRJ43YXRPPid3rvIs
+Ссылка на Figma: https://www.figma.com/design/UTJMGHkBCdv89HbDXrFtxr
 
 Макет должен быть опубликован с доступом «Anyone with the link can view», чтобы его мог открыть любой студент без входа в Figma.
 
